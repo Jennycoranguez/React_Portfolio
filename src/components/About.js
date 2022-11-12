@@ -1,56 +1,49 @@
 import React from 'react'
 import myself from "../assests/jennypicture.jpg"
+
 const styles = {
   image: {
-    display: 'flex',
-    width: '400px',
-    margin: 25,
-    marginLeft: '150px',
-    marginTop: '-120px',
-
+    width: "28%",
+    marginLeft: '100px',
+    marginTop: '-388px'
   },
   text: {
-    fontSize: 25,
-    paddingTop: '100px',
-    color: "black",
-    textAlign: "center",
-    paddingTop: "120px",
-
+    textAlign: 'center',
+    fontSize: '30px',
+    marginLeft: '735px',
+    marginRight: '74px',
   },
-  paragraphText: {
-    //  height: 20,
-    //  width: 460,
-    color: 'blue',
-    fontSize: 25,
-    color: 'black',
-    marginRight: '100px',
-    display: 'flex'
+  title: {
+    textAlign: 'center',
+    marginLeft: '772px',
+    fontSize: '37px'
+  },
+  text2: {
+    textAlign: 'center',
+    marginLeft: '772px',
+    fontSize: '37px',
+  },
+  text3:{
+    textAlign: 'center',
+    fontSize: '30px',
+    marginLeft: '841px',
+    marginRight: '74px',
+    fontWeight: 'bold'
   }
-
 }
-
 
 const About = () => {
   return (
-    // // <section>
-
-    //   <div id='about'>
-    //   <div className='about' style={styles.text}>
-    //     <h1 >  </h1>
-    //     <p style={styles.paragraphText}> As a recent graduate as a Full Stack Developer from the University of Arizona. I am so excited to begin my career in the field of technologies. I look forward to putting my education and acquired skills to use, and learning more each day. </p>
-    //   </div>
-    //   <img src={myself} className="center" style={styles.image} alt="..." />
-    //   </div>
-    // {/* </section> */}
-    <div style={{ display: "flex", flexDirection: "row-reverse", flexWrap: "wrap", alignContent: "stretch", justifyContent: "space-between", alignItems: "center" }}>
-      <div style={{ whiteSpace: 'pre-wrap', overflowWrap: 'break-word', width: '200px' }}>
-
-
-        <p> jkhadfkjhadkjfhkadhffffffgjfssssssssssssssssssssssssssssssssssssssssssssssssssssssssjfgdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddjfggggggggggggfdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddpjoooo </p>
+    <section>
+      <div>
+        <h1 style={styles.title}>About Me</h1>
+        <p style={styles.text3}>Welcome to my portfolio</p>
+        <p style={styles.text}>I'm Jennifer Coranguez, I was born and raised in Phoenix, Arizona. As a recent graduate as a Full Stack Developer from the University of Arizona. I am so excited to begin my career in the field of technologies. I look forward to putting my education and acquired skills to use, and learning more each day.  </p>
+        <p style={styles.text2}> Thank you for looking at my portfolio!!</p>
+        <img style={styles.image} src={myself} className="center" alt="..." />
       </div>
-      <img src={myself} className="center" style={{ width: '410px' }} alt="..." />
+    </section>
 
-    </div>
   )
 }
 export default About

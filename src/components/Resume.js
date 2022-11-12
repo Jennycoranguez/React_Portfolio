@@ -2,33 +2,45 @@ import React from 'react'
 import resumeimage from '../assests/resumeimage.png'
 import resumeimage1 from '../assests/resumeimage1.png'
 
-const styles={
-  button:{
-    // alignItems:'center',
-    // display:'flex',
-    // justifyContent:'center',
-    // marginRight: 100,
-    // padding: '100px',
-    // margin:'200px',
-    // size: '2em',
-    // marginLeft: '20px',
-    // paddingBottom: 30,
+const styles = {
+  link: {
+    display: 'flex',
+    flexDirection: 'column',
+    fontSize: '27px',
+    textAlign: 'center',
   },
-  image:{
+  image: {
+    marginRight: '100px',
+    display: 'flex',
+    margin: 'auto',
+  },
+  title: {
+    textAlign: 'center',
+    fontSize: '40px',
+    marginBottom: '16px',
+    marginTop: '6px'
+  },
+  divStyle: {
+    overflow: 'auto',
+    border: '4px solid ',
+    height: '649px',
+    marginRight: '38px',
+    marginLeft: '76px'
 
   }
 }
 
 const Resume = () => {
   return (
-    
-    <div className="resume" >
-      <h1 >Resume</h1>
-      <h1 style={{display:'flex',flexDirection: 'column'}}> <button variant="primary"><a href="./resume.pdf" download > Download My Resume </a></button></h1>
-       <img src={resumeimage} className="center" style={{marginRight:'100px',display:'flex',margin:'auto',}}alt="..." />
-        <img src={resumeimage1} className="center" style={{marginRight:'100px',display:'flex',margin:'auto',}} alt="..." />
+
+    <div>
+      <h1 style={styles.title}>Resume</h1>
+      <h1 style={styles.link}> < a href="./resume.pdf" download > Download My Resume </a></h1>
+      <div style={styles.divStyle}>
+        <img style={styles.image} src={resumeimage} alt="..." />
+        <img style={styles.image} src={resumeimage1} alt="..." />
+      </div>
     </div>
-  
   )
 }
 
