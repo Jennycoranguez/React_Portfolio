@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/react_portfolio/static/js/main.8ed70b34.js",
+    "static/media/AtHomeCulinary.png": "/react_portfolio/static/media/AtHomeCulinary.8540cbdea9f81790d41d.png",
+    "static/media/jennypicture.jpg": "/react_portfolio/static/media/jennypicture.9ca9f85444d141f6eaa1.jpg",
+    "static/media/TriviaWarImage.png": "/react_portfolio/static/media/TriviaWarImage.3b99daa1384ad614d670.png",
+    "static/media/NOTEtaker.png": "/react_portfolio/static/media/NOTEtaker.92e8b853cf07b0977c6d.png",
+    "static/media/resumeimage.png": "/react_portfolio/static/media/resumeimage.ed50cf25f1298cd59427.png",
+    "static/media/resumeimage1.png": "/react_portfolio/static/media/resumeimage1.334c6c1b058566bbdef1.png",
+    "static/media/ballrunner.png": "/react_portfolio/static/media/ballrunner.489410c4a4d8e4643a10.png",
+    "index.html": "/react_portfolio/index.html",
+    "main.e6c13ad2.css.map": "/react_portfolio/static/css/main.e6c13ad2.css.map",
+    "main.8ed70b34.js.map": "/react_portfolio/static/js/main.8ed70b34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8ed70b34.js"
+  ]
+}
